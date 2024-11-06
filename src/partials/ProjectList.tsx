@@ -30,7 +30,7 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Landing Page"
+        name="Beauty Salon Landing Page"
         description="Landing Page for beauty salon with responsive design for all screens, from mobile to dekstop."
         link="https://dulcet-lily-5ffe5d.netlify.app/"
         img={{ src: '/assets/images/landing.png', alt: 'Project Maps' }}
@@ -39,6 +39,18 @@ const ProjectList = () => (
             <Tags color={ColorTags.ORANGE}>HTML</Tags>
             <Tags color={ColorTags.ROSE}>SCSS</Tags>
             <Tags color={ColorTags.YELLOW}>Javascript</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Plants Shop Landing Page"
+        description="Plant Shop is a user-friendly website that allows customers to browse, select, and purchase a variety of plants effortlessly. The clean layout and intuitive navigation make shopping for greenery a seamless experience."
+        link="https://plant-shop-mavka.netlify.app/"
+        img={{ src: '/assets/images/plants-shop.png', alt: 'Project Maps' }}
+        category={
+          <>
+            <Tags color={ColorTags.ORANGE}>HTML</Tags>
+            <Tags color={ColorTags.BLUE}>CSS</Tags>
           </>
         }
       />
