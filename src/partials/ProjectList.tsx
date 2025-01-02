@@ -16,6 +16,23 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
+        name="Weather App"
+        description="Intuitive weather app that provides real-time forecasts and weather data. Features: Search by location name, display forecast for the next 10 days and the next 24 hours, considering location local time. Ability to check wind speed, direction (arrow change rotation based on angle), humidity and UV index (bar is colored based on the UV index). The bar in daily forecast depends on forecast absolute min and max temperatures for 10 days and min and max temperatures during a day (somewhat similar to IOS bar)."
+        link="https://weather-app-mavka.netlify.app/"
+        img={{
+          src: '/assets/images/weather-app.png',
+          alt: 'Javascript Challenges',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.CYAN}>React</Tags>
+            <Tags color={ColorTags.BLUE}>Typescript</Tags>
+            <Tags color={ColorTags.EMERALD}>Tailwind</Tags>
+            <Tags color={ColorTags.YELLOW}>Cypress</Tags>
+          </>
+        }
+      />
+      <Project
         name="Dashboard"
         description="The dashboard provides a quick summary of business performance, showing KPIs like total sales, quotes, orders, and products. It includes charts for monthly visitor trends, weekly financials, and website traffic breakdowns. Customer stats and feedback ratings give insights into user engagement and satisfaction."
         link="https://luminous-swan-3c9163.netlify.app/"
