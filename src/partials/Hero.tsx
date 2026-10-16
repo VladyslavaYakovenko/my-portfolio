@@ -15,10 +15,11 @@ const Hero = () => (
       }
       description={
         <>
-          Jeg er en nybegynner innen frontend-utvikling med kunnskap i HTML, CSS
-          og JavaScript. Jeg forbedrer meg kontinuerlig, jobber med prosjekter
-          og ønsker å lage brukervennlige og moderne grensesnitt. Jeg ser etter
-          muligheter for å få praksis og utvikle meg gjennom reelle prosjekter.
+          Jeg er en frontend-utvikler med over to års erfaring med å bygge
+          moderne, responsive og brukervennlige webapplikasjoner. Jeg liker å
+          løse tekniske utfordringer, skrive vedlikeholdbar kode og utvikle
+          intuitive brukergrensesnitt. Jeg er alltid motivert for å lære mer og
+          skape gode digitale løsninger.
         </>
       }
       avatar={
